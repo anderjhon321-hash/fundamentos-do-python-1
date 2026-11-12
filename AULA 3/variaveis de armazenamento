@@ -1,0 +1,16 @@
+fruta1 = 'maçã'
+fruta2 = 'uva'
+fruta3 = 'banana'
+
+resultado = fruta1 + fruta2 + fruta3
+
+print(resultado)
+
+
+
+numero1 = int(input('digite o primeiro numero:'))
+numero2 = int(input('digite o segundo numero: '))
+
+resultado = str(numero1) + str(numero2)
+
+print('resultado da contenação: ', resultado)
