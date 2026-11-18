@@ -1,0 +1,37 @@
+def soma():
+    n1 =  int(input('nº: '))
+    n2 =  int(input('nº: '))
+    print('=', n1 +  n2)
+    
+    
+def subtraçao():
+    n1 =  int(input('nº: '))
+    n2 =  int(input('nº: '))
+    print('=', n1 +  n2)
+    
+
+def multiplicaçao():
+    n1 =  int(input('nº: '))
+    n2 =  int(input('nº: '))
+    print('=', n1 +  n2)
+    
+    
+def divisao():
+    n1 =  int(input('n: '))
+    n2 =  int(input('nº: '))
+    print('=', n1 +  n2)
+    
+def calculadora():
+    
+    while true:
+        op = input('>>')
+        if op == '+':
+         soma()
+        elif op == '-':
+          subtraçao()
+        elif op == 'x':
+            multiplicaçao()
+        elif op == '/':
+            divisao()
+        else:
+                print('digite uma operacao')
