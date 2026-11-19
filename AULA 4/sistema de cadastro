@@ -1,0 +1,20 @@
+cadastro():
+    nome = input('digite seu nome:')
+    email = input('digite seu e-mail:')
+    idade = int(input('digite sua idade: '))
+    
+    print('\n--- cadastro realizado---')
+    print('nome:', nome)
+    print('e-mail:',email)
+    print('idade:', idade)
+    
+continuar = 's'
+
+while continuar == 's':
+    print('\n=== sistema de cadastro===')
+    
+    cadastro()
+    
+    continuar = input('\ndeseja cadastrar outra pessoa? (s/n:):').lower()
+    
+    print('\nsistema encerrado')
